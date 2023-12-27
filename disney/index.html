@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/home.png" class="full-width-image">
+        <button class="read-more" onclick="scrollToAbout()">Know More</button>
+    </div>
+    <div class="about" id="about-section">
+        <div class="about-header"><span class="gradient-text"></span>About Us</span></div>
+        <div class="about-content">
+            <p>The Walt Disney Company, commonly known as Disney, is a multinational entertainment and media conglomerate headquartered in Burbank, California, USA. It was founded on October 16, 1923, by brothers Walt Disney and Roy O. Disney. Disney is one of the world's leading and most recognized entertainment companies, known for its iconic characters, films, theme parks, and diverse media offerings.</p>
+        </div>
+        <h1 class="about-header">Top 9 Disney Movies of all time</h1>
+    </div>
+    <div class="image-grid">
+        <div class="image-box">
+            <img src="images/movie1.png" alt="Image 1">
+            <a href="movie1.html">BEAUTY AND THE BEAST</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie2.png" alt="Image 1">
+            <a href="movie2.html">TOY STORY</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie3.png" alt="Image 1">
+            <a href="movie3.html">FROZEN</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie4.png" alt="Image 1">
+            <a href="movie4.html">UP</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie5.png" alt="Image 1">
+            <a href="movie5.html">THE LITTLE MERMAID</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie6.png" alt="Image 1">
+            <a href="movie6.html">ALADDIN</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie7.png" alt="Image 1">
+            <a href="movie7.html">SNOW WHITE AND THE SEVEN DWARFS</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie8.png" alt="Image 1">
+            <a href="movie8.html">PETER PAN</a>
+        </div>
+        <div class="image-box">
+            <img src="images/movie9.png" alt="Image 1">
+            <a href="movie9.html">ALICE IN WONDERLAND</a>
+        </div>
+       
+    </div>
+    
+    <script>
+        function scrollToAbout() {
+            const aboutSection = document.getElementById('about-section');
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
